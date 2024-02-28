@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-tarball", "dotnet-tarball\dotnet-tarball.csproj", "{7CC0E2CC-8D01-41A2-A8A6-951161D7E413}"
 EndProject
@@ -14,6 +14,18 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-rpm", "dotnet-rpm\dotnet-rpm.csproj", "{8DE91847-CD14-4B05-BD4E-6B3FEBF6C014}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-deb", "dotnet-deb\dotnet-deb.csproj", "{CB69DD41-E3DA-4418-8A32-419E1B5642DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Folder", "Solution Folder", "{95E44348-DAF0-4E0A-9C65-A48CA600D7D2}"
+	ProjectSection(SolutionItems) = preProject
+		.azure-pipelines-shared.yml = .azure-pipelines-shared.yml
+		.azure-pipelines.yml = .azure-pipelines.yml
+		.drone.yml = .drone.yml
+		appveyor-testresults.ps1 = appveyor-testresults.ps1
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		README.md = README.md
+		version.json = version.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
